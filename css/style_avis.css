@@ -1,0 +1,201 @@
+.avis-section {
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: #1e1e1ed9;
+    border: 2px solid #ff7e5f;
+    border-radius: 15px;
+    color: #f0f0f0;
+    backdrop-filter: blur(4px);
+}
+
+.avis-section h2 {
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    border-bottom: 2px solid #ff7e5f;
+    display: inline-block;
+    padding-bottom: 0.3rem;
+}
+
+.avis {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background-color: #2a2a2ad9;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.note {
+    color: #ffae58;
+    font-weight: bold;
+}
+
+.avis:nth-child(odd) {
+    border-left: 4px solid #ff7e5f;
+}
+
+.avis:nth-child(even) {
+    border-left: 4px solid #007bff;
+}
+
+.avis .auteur {
+    font-weight: bold;
+    color: #ffae58;
+    margin-bottom: 0.3rem;
+}
+
+.nonNote {
+    color: white;
+    font-weight: normal;
+}
+
+.etoile {
+    font-size: 1.4rem;
+    margin-right: 3px;
+}
+
+.etoilePleine {
+    color: #ffae58;
+}
+
+.etoileVide {
+    color: #555;
+}
+
+.avis .commentaire {
+    margin-top: 0.5rem;
+    line-height: 1.5;
+}
+
+#openModalBtn {
+    display: block;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.6rem 1.2rem;
+    background-color: #ff7e5f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#openModalBtn:hover {
+    background-color: #ff6347;
+}
+
+.avisModal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.avisModal-content {
+    background: rgba(64, 64, 64);
+    border-top: 3px solid #007bff;
+    border-left: 3px solid #007bff;
+    border-bottom: 3px solid #ff7e5f;
+    border-right: 3px solid #ff7e5f;
+    color: white;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 20px;
+    width: 400px;
+    text-align: center;
+    position: relative;
+}
+
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: red;
+}
+
+.avisModal-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #ffae58;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.avisModal-content form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.avisModal-content label {
+    font-weight: bold;
+    color: #ffffff;
+    text-align: left;
+}
+
+.star-rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 5px;
+}
+
+.star-rating input[type="radio"] {
+    display: none;
+}
+
+.star-rating label {
+    font-size: 2rem;
+    color: #555;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.star-rating input[type="radio"]:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+    color: #ffae58;
+}
+
+.avisModal-content textarea {
+    padding: 0.6rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+    font-size: 1rem;
+}
+
+.avisModal-content textarea:focus {
+    outline: 2px solid #ff7e5f;
+}
+
+.ajouter-avis {
+    background-color: rgba(40, 40, 40, 0.8);
+    border-top: 3px solid #ff7e5f;
+    border-left: 3px solid #ff7e5f;
+    border-bottom: 3px solid #007bff;
+    border-right: 3px solid #007bff; 
+    color: white;
+    padding: 10px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.ajouter-avis:hover {
+    background-color: rgba(90, 90, 90, 0.8);
+}

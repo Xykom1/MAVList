@@ -1,0 +1,287 @@
+/* Style pour la section Oeuvres populaire */
+.popular-works {
+    margin-bottom: 2rem;
+}
+
+.swiper {
+    width: 35%;
+    height: 100%;
+    border: 3px solid #ff7e5f;
+    background-color: rgb(44, 44, 44, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.swiper h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid #ff7e5f;
+    padding-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.swiper-slide img {
+    margin-top: 15px;
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.swiper-slide h3 {
+    margin: 1rem 0;
+}
+
+.star-rating {
+    color: #FFD700; /* Code couleur jaune */
+}
+
+
+.swiper-slide p {
+    margin: 0.5rem 0;
+}
+
+/* Style pour la section recommandations */
+.recommendations {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.recommendation-frame {
+    display: inline-block;
+    border: 2px solid #ff7e5f;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgba(44, 44, 44, 0.8);
+    width: 80%; /* Ajustez la largeur selon vos besoins */
+    max-width: 1200px;
+    backdrop-filter: blur(5px);
+}
+
+.recommendation-frame h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-bottom: 3px solid #ff7e5f;
+    padding-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.recommendation-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.recommendation-item {
+    background-color: rgba(64, 64, 64, 0.8);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    flex: 1;
+    min-width: 200px; /* Ajustez la largeur minimale selon vos besoins */
+}
+
+.recommendation-item img {
+    width: 350px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.recommendation-item h3 {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.recommendation-item p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+.recommendation-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Style pour la section Avis */
+.latest-reviews {
+    text-align: center;
+    backdrop-filter: blur(5px);
+    margin-bottom: 2rem;
+    border: 3px solid #ff7e5f;
+    background-color: rgba(44, 44, 44, 0.8); /* Fond semi-transparent pour cohérence */
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.latest-reviews h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid #ff7e5f; /* Couleur d'accent */
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+.review-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.review-item {
+    background-color: rgba(64, 64, 64, 0.8); /* Couleur légèrement plus claire */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 1.5rem;
+    color: #fff;
+    flex: 1;
+    min-width: 280px; /* Ajustez la largeur minimale selon vos besoins */
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.review-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.review-header h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    flex: 1;
+}
+
+.review-header p {
+    margin: 0;
+    font-size: 1rem;
+    color: #ff7e5f; /* Couleur d'accent pour la note */
+}
+
+.review-body {
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+.review-author {
+    text-align: right;
+    font-size: 0.9rem;
+    color: #ddd;
+}
+
+/* Style pour la section Tendance */
+.trends {
+    text-align: center;
+    backdrop-filter: blur(5px);
+    margin-bottom: 2rem;
+    border: 3px solid #ff7e5f;
+    background-color: rgba(44, 44, 44, 0.8); /* Fond semi-transparent pour cohérence */
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.trends h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid #ff7e5f; /* Couleur d'accent */
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+.trend-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.trend-item {
+    background-color: rgba(64, 64, 64, 0.8);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    flex: 1;
+    min-width: 200px;
+}
+
+.trend-item img {
+    width: 225px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.trend-item h3 {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.trend-item p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+.trend-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Style pour les boutons En savoir plus */
+.cta-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+
+

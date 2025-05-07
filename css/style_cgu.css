@@ -1,0 +1,40 @@
+.cgu {
+    backdrop-filter: blur(5px);
+    margin-bottom: 2rem;
+    border: 3px solid #ff7e5f;
+    background-color: rgba(44, 44, 44, 0.8);
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 20px;
+    color: #f0f0f0;
+    font-size: 1.1rem;
+    max-width: 900px;
+}
+
+.cgu-title {
+    display: flex;
+    justify-content: center;
+}
+
+.cgu h1 {
+    font-size: 2.2rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid #ff7e5f;
+    padding-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.cgu h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0.8rem;
+    color: #ffffff;
+    border-left: 4px solid #007BFF;
+    padding-left: 0.8rem;
+}
+
+.cgu p {
+    margin-bottom: 1.2rem;
+}
+
