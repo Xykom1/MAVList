@@ -75,7 +75,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <body>
     <?php include('header.php'); ?>
-    <main>
+    <main class="compte-main">
         <h1>Mon compte</h1>
         <?php if (!empty($message)): ?>
             <div id="message"><?= htmlspecialchars($message) ?></div>
